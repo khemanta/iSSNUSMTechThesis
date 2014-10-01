@@ -17,6 +17,7 @@
 %% DISCLAIMER:
 %% THIS IS UNOFFICIAL TEMPLATE OF PROJECT PHD THESIS TEMPLATE RELEASED UNDER CREATIVE COMMON LICENSE.
 %%     THE END USER IS RESPONSIBLE FOR FOLLOWING THE GUIDELINES OF UNIVERSITY DIGITAL IDENTITY.
+%%  Date : \today() | October 1, 2014
 %% ------------------------------------------------------------------------------------------------%%
 
 \documentclass[titlepage,a4paper,12pt,thmsb]{report}
@@ -70,7 +71,7 @@
 \renewcommand{\headrulewidth}{0.1pt}    % Width of head rule
 \renewcommand\footrulewidth{0.1pt}
 %\fancyfoot[CE,CO]{\myTitle}{}
-\fancyfoot[CE,CO]{Capstone Project Report}{}
+\fancyfoot[CE,CO]{Master Thesis}{}
 \makeindex
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\let\oldAuthor\author
@@ -84,12 +85,14 @@
 \begin{center}
 %{\centering
 %\large
-{\LARGE \bf{A Capstone Project Report on Analytics Work Carried Out at hemsoft, Inc.}} \\
+{\LARGE \bf{Title Of The Project}} \\
 \vspace{2.0cm}
 %\it{A project report submitted in partial fulfillment \\ for the requirements for the degree of \\ Master of IT in Business} \\
 {\color{blue} \sc{project report submitted in partial fulfillment\\ for the requirements of the degree of}} \\
 \vskip 0.5cm
-\bf{Master of IT in Business Analytics} \\
+{\bf Master of Technology} \\
+in \\
+{Knowledge Engineering} \\
 \vspace{0.5cm}
 %\sc
 \sc{by} \\
@@ -105,7 +108,7 @@
 
 \hspace{.05cm} {\bf {Prof. XY Zee}}\\
 \hspace{.05cm} {\sc and}\\
-\hspace{.05cm} {\bf {Kumar Hemant}}\\
+\hspace{.05cm} {\bf {A.B. Cee}}\\
 \vspace{0.5cm}
 \vspace{0.5cm}
 %\universityseal\ \\
@@ -113,18 +116,18 @@
 \begin{figure}[h]
 %\hspace{6cm}
 %\vspace{5cm}
-{\centering {\includegraphics[width=0.5\linewidth,angle=0]{logo/smu_sis.jpg}}\par}
+{\centering {\includegraphics[width=0.5\linewidth,angle=0]{logo/iss_nus_logo.jpg}}\par}
 \end{figure}
 
-\vskip 0.5cm
+%\vskip{0.5cm}
 
 %\large{\bf Department of Mathematics \& Computing} \\
-\large{\color{blue} SCHOOL OF INFORMATION SYSTEMS} \\
-\vskip 0. 5cm
+\large{\color{blue} INSTITUTE OF SYSTEM SCIENCE} \\
+%\vskip 0. 5cm
 %\Large{\bf Indian Institute of Technology Guwahati}\\
-\Large{\color{blue} \bf SINGAPORE MANAGEMENT UNIVERSITY}\\
-\vskip 0.50cm
-{\color{blue} \centering \sc{Singapore, April 2014}}
+\Large{\color{blue} \bf NATIONAL UNIVERSITY OF SINGAPORE}\\
+%\vskip 0.50cm
+{\color{blue} \centering \sc{Singapore, October 2014}}
 %} %%% this is end of centering environment
 \end{center}
 
@@ -134,7 +137,7 @@
 
 \chapter*{CERTIFICATE}
 \addcontentsline{toc}{chapter}{\numberline{}CERTIFICATE}
-It is certified that the work contained in this report entitled {\bf Title of the project} has been carried out by {\bf Name of Candidate} under our supervision as Capstone Project from December 2013 to June 2014 and that in our opinion is fully adequate, in scope and quality, as a dissertation for the degree of {\sc MITB}.\\
+It is certified that the work contained in this report entitled {\bf Title of the project} has been carried out by {\bf Name of Candidate} under our supervision as Capstone Project from July 2014 to November 2014 and that in our opinion is fully adequate, in scope and quality, as a dissertation for the degree of {\sc M.Tech.}.\\
 \vspace*{0.5cm}\\
 
 \begin{tabbing}

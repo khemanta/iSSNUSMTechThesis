@@ -1,5 +1,6 @@
-# Master of Technology (MTech) Thesis Template for Institute of System Science - National University of Singapore 
 ## iSSNUSMTechThesis
+### Master of Technology (MTech) Thesis Template for Institute of Systems Science - National University of Singapore 
+
 
 ----------------------------------------------------------------------------------------------
 **Author & Contributor:** 
@@ -8,7 +9,7 @@
 ----------------------------------------------------------------------------
 
  **About the SMUThesisTemplate:**
-> - The Unofficial LaTeX source code and template for Capstone report, or Master thesis, PhD dissertation for **Institute of System Science** of  **NUS** Singapore.
+> - The Unofficial LaTeX source code and template for Capstone report, or Master thesis, PhD dissertation for **Institute of Systems Science** of  **NUS** Singapore.
 
 > - This template is created and released under **Creative Common License** is free to use and modify the content as long as citing the original credit and references.
 
@@ -20,7 +21,7 @@
 **CREDITS :** 
 > - This template is hacked version of original "Article" package available under the TeX and LaTeX programming environment for document typesetting developed by Prof. Emeritus, Donald E. Knuth of Stanford University and author of "The Art of Programming".
 > - The LaTeX typesetting are borrowed largely from book, "The LaTeX Companion" by Leslie Lamport of Microsoft Research.
-> - The details of the requisite packages are available from The Comprehensivce TeX Archieve Network.
+> - The details of the requisite packages are available from The Comprehensive TeX Archive Network.
 
                                   www.ctan.org
 

@@ -52,7 +52,9 @@
 \let\oldTitle\title
 \renewcommand{\title}[1]{\newcommand{\myTitle}{#1}\oldTitle{#1}}
 \newcommand{\leftscripts}[3]{{\vphantom{#3}}^{#1}_{#2}{#3}}
-
+%%% ---------------------------------------------------------------------------%%%
+%Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
+\usepackage[Bjornstrup]{fncychap}
 %%% Fancy Header %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Fancy Header Style Options
 \pagestyle{fancyplain}                  % Sets fancy header and footer
@@ -86,12 +88,12 @@
 %{\centering
 %\large
 {\LARGE \bf{Title Of The Project}} \\
-\vspace{2.0cm}
+\vspace{1.5cm}
 %\it{A project report submitted in partial fulfillment \\ for the requirements for the degree of \\ Master of IT in Business} \\
 {\color{blue} \sc{project report submitted in partial fulfillment\\ for the requirements of the degree of}} \\
-\vskip 0.5cm
-{\bf Master of Technology} \\ 
-in \\ 
+\vskip 0.75cm
+{\large \bf Master of Technology} \\
+in \\
 {Knowledge Engineering} \\
 \vspace{0.5cm}
 %\sc
@@ -106,28 +108,31 @@ in \\
 {\color{blue} \sc{under the guidance of}} \\
 \vspace{.5cm}
 
-\hspace{.05cm} {\bf {Prof. XY Zee}}\\
+\hspace{.05cm} {\bf {X.Y. Zee, PhD}}\\
 \hspace{.05cm} {\sc and}\\
-\hspace{.05cm} {\bf {A.B. Cee}}\\
+\hspace{.05cm} {\bf {A.B. Cee, MSc}}\\
 \vspace{0.5cm}
 \vspace{0.5cm}
 %\universityseal\ \\
 
+\vspace{1.5cm}
+
 \begin{figure}[h]
-%\hspace{6cm}
-%\vspace{5cm}
-{\centering {\includegraphics[width=0.5\linewidth,angle=0]{logo/nus_logo.jpg}}\par}
+%\hspace{2cm}%\vspace{5cm}
+{\centering {\includegraphics[width=0.5\linewidth,angle=0]{logo/iss_nus_logo.jpg}}\par}
 \end{figure}
 
-%\vskip{0.5cm}
+\vspace{1.5cm}
 
 %\large{\bf Department of Mathematics \& Computing} \\
-\large{\color{blue} INSTITUTE OF SYSTEM SCIENCE} \\
+\large{\color{blue} INSTITUTE OF SYSTEMS SCIENCE} \\
 %\vskip 0. 5cm
 %\Large{\bf Indian Institute of Technology Guwahati}\\
 \Large{\color{blue} \bf NATIONAL UNIVERSITY OF SINGAPORE}\\
-%\vskip 0.50cm
-{\color{blue} \centering \sc{Singapore, October 2014}}
+
+\vskip 0.25cm
+
+{\color{black} \centering \sc{\small Singapore, October 2014}}
 %} %%% this is end of centering environment
 \end{center}
 
@@ -137,8 +142,9 @@ in \\
 
 \chapter*{CERTIFICATE}
 \addcontentsline{toc}{chapter}{\numberline{}CERTIFICATE}
-It is certified that the work contained in this report entitled {\bf Title of the project} has been carried out by {\bf Name of Candidate} under our supervision as Capstone Project from July 2014 to November 2014 and that in our opinion is fully adequate, in scope and quality, as a dissertation for the degree of {\sc M.Tech.}.\\
-\vspace*{0.5cm}\\
+It is certified that the work contained in this report entitled {\bf Title of the project} has been carried out by {\bf Name of Candidate} under our supervision as Capstone Project from July 2014 to November 2014 and that in our opinion is fully adequate, in scope and quality, as a dissertation for the degree of {\bf Master of Technology} in {Knowledge Engineering}.\\
+
+\vspace*{0.25cm}
 
 \begin{tabbing}
 % \hspace{10cm}                                         \>  \hspace{10cm}            \= \kill
@@ -149,7 +155,7 @@ It is certified that the work contained in this report entitled {\bf Title of th
 %\includegraphics[width=.4\linewidth]{NameCard}     \> \includegraphics[width=.4\linewidth]{NameCard}
 \end{tabbing}
 
-\bigskip
+\smallskip
 
 {\centering {
 \includegraphics[width=0.4\linewidth,angle=0]{logo/Seal_Placeholder.png}
